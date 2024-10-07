@@ -1,6 +1,62 @@
 /* Base */
-.text-gold{
-  color: goldenrod;
+.navbar {
+  position: fixed; /* or sticky */
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure this is higher than any other overlapping elements */
+}
+.site-footer a {
+  text-decoration: none !important; /* Remove underline */
+}
+
+.site-footer a:hover {
+  text-decoration: underline !important; /* Optional: underline on hover */
+}
+
+.social-icons a {
+  margin: 0 2px; /* Adjust spacing as needed */
+  text-decoration: none; /* Remove underline from links */
+  color: inherit; /* Inherit color from parent */
+}
+
+.social-icons a:hover {
+  color: #ccc; /* Change color on hover for better visibility */
+}
+
+
+.accordion-body {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.accordion-body img {
+  width: 600px; /* Fixed width for images */
+  height: auto; /* Maintain aspect ratio */
+  margin: 0 20px; /* Margin around images */
+  flex: 0 0 300px; /* Prevent image from shrinking */
+}
+
+.accordion-body ul {
+  flex: 1; /* Allow text to take up remaining space */
+  padding-left: 20px; /* Add padding to the left of the text */
+  list-style-type: none; /* Remove default bullet points */
+}
+
+/* Alternate alignment of images and content */
+.accordion-body:nth-child(even) img {
+  order: 2; /* Move image to the bottom for even items */
+}
+
+.accordion-body:nth-child(even) ul {
+  order: 1; /* Move content to the top for even items */
+}
+
+.accordion-item {
+  margin-bottom: 20px; /* Spacing between accordion items */
 }
 
 a {
