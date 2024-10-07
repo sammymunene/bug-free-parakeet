@@ -30,13 +30,13 @@
   align-items: center;
   justify-content: space-between;
   padding: 20px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
 }
 
 .accordion-body img {
   
   justify-items: center !important;
-  width: auto;/* Fixed width for images */
+  width: 100%;/* Fixed width for images */
   height: auto; /* Maintain aspect ratio */
   margin: 0 0 0 0px;
   padding-bottom: 10px;
