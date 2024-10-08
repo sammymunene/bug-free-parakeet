@@ -2,6 +2,14 @@
 strong{
   color: gold;
 }
+.drawer {
+  display: none; /* Hide by default */
+}
+
+.drawer.open {
+  display: block; /* Show when open */
+}
+
 .navbar {
   position: fixed; /* or sticky */
   top: 0;
