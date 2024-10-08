@@ -150,8 +150,8 @@ body:after {
     border-color: goldenrod;
     color: #fff; }
     .btn.btn-primary:hover {
-      background: goldenrod;
-      border-color: black;
+      background: #000;
+      border-color: white;
       color: #fff; }
     .btn.btn-primary.btn-black--hover:hover {
       background: #666666;
@@ -1830,7 +1830,7 @@ body:after {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   display: inline-block;
-  background: goldenrod; }
+  background: #000; }
   @media (max-width: 991.98px) {
     .custom-direction {
       bottom: -25px;
@@ -1850,6 +1850,10 @@ body:after {
       -webkit-transform: rotate(-180deg);
       -ms-transform: rotate(-180deg);
       transform: rotate(-180deg); }
+    .custom-direction:hover {
+      background: goldenrod;
+      border-color: white;
+      color: #fff; }
 
 /* Isotope*/
 .item {
